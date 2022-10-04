@@ -57,11 +57,17 @@ p.card-descricao {
     padding-bottom: 20px;
 }
 .s-contato {
-    color: var(--cor-y2)
+    color: var(--cor-y2);
+    font-family: 'Merriweather Sans'
 }
-div.col-CISB p  {
+.s-contato h4 {
+    font-size: 1em;
+    color: var(--cor-cr1)
+}
+div.col-CISB p, div.col-Horario p  {
     color: var(--cor-cr1);
     font-family: 'Karla';
+    font-weight: 200;
     font-size: 1em;
     margin: 0;
  }
