@@ -17,7 +17,7 @@
 }
 
 .icons_bg {
-    background-image: url("/_imgs/IconsBG.png");
+    background-image: url("/imgs/IconsBG.png");
     background-repeat: repeat-y;
     background-size: 100%;
 }
