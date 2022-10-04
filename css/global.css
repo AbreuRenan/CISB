@@ -72,7 +72,7 @@
 }
 /* ######### Fim Animação Links Menu ######### */
 .navbar-icon {
-    background-image: url("/imgs/menu.png");
+    background-image: url("../imgs/menu.png");
     display: inline-block;
     width: 1.2em;
     height: 1.2em;
@@ -126,7 +126,7 @@ div.card-botside .card-textos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("/imgs/aspas.svg");
+    background-image: url("../imgs/aspas.svg");
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: 50% 85%;
