@@ -1,0 +1,23 @@
+.logo {
+    position: absolute;
+    height: 110px;
+    width: auto;
+    align-self: flex-start;
+    transition: all 0.3s;
+}
+.BV-Banner {
+    position: relative;
+    text-align: center;
+
+}
+.BV-Banner img {
+    padding: 0;
+    min-height: 360px;
+    object-fit: cover;
+}
+
+.icons_bg {
+    background-image: url("/_imgs/IconsBG.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
