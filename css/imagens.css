@@ -16,8 +16,25 @@
     object-fit: cover;
 }
 
-.icons_bg {
+body.icons_bg {
     background-image: url("../imgs/IconsBG.png");
     background-repeat: repeat-y;
     background-size: 100%;
+}
+div.card-topside img {
+    position: absolute;
+    height: 130%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.card-botside .card-textos {
+    background-image: url("../imgs/aspas.svg");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: 50% 85%;
+}
+
+div.card-diferenciais>img {
+    height: 45%;
 }

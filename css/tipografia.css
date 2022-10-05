@@ -20,6 +20,7 @@
     font-size: 1.2em;
 }
 h2.karla-display {
+    text-align: center;
     font-family: 'Karla', 'Sans Serif';
     font-size: 4.4rem;
     font-weight: 600;
@@ -55,6 +56,19 @@ p.card-descricao {
     font-weight: 600;
     line-height: normal;
     padding-bottom: 20px;
+}
+
+.s-diferencial .titulo-diferencial {
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 2em;
+    color: var(--cor-red2);
+}
+.s-diferencial .texto-diferencial {
+    font-family: 'Merriweather Sans';
+    font-size: 0.9em;
+    font-weight: 300;
+
 }
 .s-contato {
     color: var(--cor-y2);

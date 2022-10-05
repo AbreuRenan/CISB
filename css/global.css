@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Karla','Merriweather Sans', 'Sans Serif';
 }
 
 :root {
@@ -92,6 +93,7 @@ button.navbar-toggler {
 
 section.s-sobre, section.s-equipe,.s-diferencial, .s-contato   {   
     padding-top: 5%;
+    margin-top: 5%;
 }
 
 div.containerdocard {
@@ -109,13 +111,7 @@ div.card-topside {
     height: 30%;
     width: 100%;
 }
-div.card-topside img {
-    position: absolute;
-    height: 130%;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+
 div.card-botside {
     background-color: var(--cor-cr1);
     height: 70%;
@@ -126,16 +122,6 @@ div.card-botside .card-textos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("../imgs/aspas.svg");
-    background-repeat: no-repeat;
-    background-size: 90%;
-    background-position: 50% 85%;
-}
-
-
-.s-diferencial, .s-contato {
-    min-height: 200px;
-    padding-bottom: 5%;
 }
 
 #btn-zap {
@@ -146,6 +132,20 @@ div.card-botside .card-textos {
     border: 0;
     border-radius: 4px;
 }
+
+div.card-diferenciais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 280px;
+    padding: 20px;
+    margin: 10px auto;
+    background-color: rgba(255, 254, 254, 0.95);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.10);
+    border-radius: 6px;
+}
+
 
 @media screen and (max-width: 680px) {
     div.containerdocard {
