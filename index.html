@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-sm sticky-top bg-red4">
         <div class="container-fluid ">
             <a href="#" class="navbar-brand navheight">
-                <img class="logo" src="./imgs/logo.png" alt="Logo">
+                <img id="logo" class="logo" src="./imgs/logo.png" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -160,7 +160,7 @@
         </section>
         <section class="s-diferencial">
             <h2>Nossos Diferenciais</h2>
-            
+
         </section>
         <section class="s-contato container-fluid text-center bg-red4">
             <div class="row justify-content-center">
@@ -198,8 +198,13 @@
         function scrollFunction() {
             if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 270) {
                 document.getElementsByClassName("logo")[0].style.height = "50px";
+                document.getElementsByClassName("logo")[0].style.top = "0px";
+                document.getElementsByClassName("logo")[0].style.left = "50px";
+
             } else {
                 document.getElementsByClassName("logo")[0].style.height = "110px";
+                document.getElementsByClassName("logo")[0].style.top = "0px";
+                document.getElementsByClassName("logo")[0].style.left = "0px";
             }
         }
     </script>
