@@ -3,7 +3,7 @@
 
 .texto_banner {
     color: var(--cor-cy1);
-    font-size: 10vw;
+    font-size: 4em;
     font-family: 'Karla', 'Sans Serif';
     font-weight: 600;
     text-shadow: 0px -1px 5px rgba(0, 0, 0, 0.5);
@@ -99,3 +99,43 @@ div.col-CISB p, div.col-Horario p  {
         font-size: 1.3rem;
     }
 }
+/*######### Fim index.html ########## */
+
+/*######### Start estude.html ########## */
+
+article.texto-segmentos h3 {
+    padding: 10% 0 0 10%;
+    font-family: 'Merriweather Sans';
+    font-weight: 700;
+    font-size: 2em ;
+}
+article.texto-segmentos h4 {
+    padding: 10% 0 0 10%;
+    font-family: 'Merriweather Sans';
+    font-weight: 600;
+    font-size: 1em ;
+}
+article.texto-segmentos p {
+    padding: 0 10% 5% 10%;
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: .9em ;
+    text-align: justify;
+}
+#babyclass {
+    color: #330022;
+}
+#babyclass p {
+    color: #1F0014;
+} 
+
+#fundamentalclass {
+    color: #002033;
+}
+#fundamentalclass p {
+    color: #00141F;
+} 
+
+#infantilclass {
+    color: var(--cor-cy5);
+} 
