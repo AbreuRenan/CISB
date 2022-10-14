@@ -159,12 +159,6 @@ div.card-diferenciais {
     border-radius: 6px;
 }
 
-@media screen and (max-width: 680px) {
-    div.containerdocard {
-        height: 340px;
-    }
-}
-
 /*######### Fim index.html ########## */
 
 /*######### Start estude.html ########## */
@@ -177,13 +171,13 @@ div.segmentos {
     height: 100%;
     width: 100%;
 }
-div .segmentos:nth-of-type(2) article {
+div #babyclass {
     background-color: #EFCDE499
 }
-div .segmentos:nth-of-type(3) article {
+div #infantilclass {
     background-color: #FFE73399
 }
-div .segmentos:last-of-type article {
+div #fundamentalclass {
     background-color: #9CDBFF99
 }
 
@@ -208,4 +202,22 @@ div.texto-como-chegar {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+
+@media screen and (max-width: 567px) {
+    div.containerdocard {
+        height: 340px;
+    }
+    .reverse {
+        flex-direction: column-reverse;
+    }
 }

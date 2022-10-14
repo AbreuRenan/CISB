@@ -92,14 +92,7 @@ div.col-CISB p, div.col-Horario p  {
     color: var(--cor-cy5);
     font-family: 'Merriweather Sans';
 }
-@media screen and (max-width: 680px) {
-    :root {
-        font-size: 12px;
-    }
-    p.card-descricao {
-        font-size: 1.3rem;
-    }
-}
+
 /*######### Fim index.html ########## */
 
 /*######### Start estude.html ########## */
@@ -169,3 +162,14 @@ div.texto-como-chegar p {
 }
 
 
+@media screen and (max-width: 680px) {
+    :root {
+        font-size: 10px;
+    }
+    p.card-descricao {
+        font-size: 1.4rem;
+    }
+    .card-textos {
+        font-size: 12px;
+    }
+}
