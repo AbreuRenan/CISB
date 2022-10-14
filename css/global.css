@@ -91,7 +91,7 @@ button.navbar-toggler {
     background-color: var(--cor-red5);
 }
 
-section.s-sobre, section.s-equipe,.s-diferencial, .s-contato   {   
+section.s-sobre, section.s-equipe,.s-diferencial, .s-contato, .s-diferenciais, .s-como-chegar   {   
     padding-top: 5%;
     margin-top: 5%;
 }
@@ -131,6 +131,19 @@ div.card-botside .card-textos {
     background-image: var(--cor-grad1);
     border: 0;
     border-radius: 4px;
+}
+
+#btn-como-chegar {
+    display: block;
+    text-decoration: none;
+    margin-top: 5%;
+    padding: 6px 8px;
+    background-color: #29A71A;
+    border: 0;
+    border-radius: 4px;
+}
+#btn-como-chegar img {
+    width: 24px;
 }
 
 div.card-diferenciais {
@@ -176,4 +189,23 @@ div .segmentos:last-of-type article {
 
 article.texto-segmentos {
     text-align: left;
+}
+section.s-contato {
+    padding-bottom: 5%;
+}
+
+.lista-estrutura {
+    padding-top: 5%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+div.texto-como-chegar {
+    padding: 5% 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

@@ -140,3 +140,32 @@ article.texto-segmentos p {
 #infantilclass {
     color: var(--cor-cy5);
 } 
+.lista-estrutura li {
+    font-family: 'Merriweather Sans', 'Sans Serif';
+    text-align: left;
+    color: var(--cor-red5);
+}
+div.texto-como-chegar {
+    text-align: left;
+}
+div.texto-como-chegar h4 {
+    color: var(--cor-red5);
+    font-family: 'Merriweather Sans', 'Sans Serif';
+    font-weight: 400;
+}
+div.texto-como-chegar p {
+    color: var(--cor-cr5);
+    font-family: 'Merriweather Sans', 'Sans Serif';
+    font-weight: 300;
+    margin: 0;
+}
+
+#btn-como-chegar{
+    color: black;
+    font-size: 0.8rem;
+    font-family: 'Merriweather Sans', 'Sans Serif';
+    text-align: left;
+    white-space: nowrap;
+}
+
+
