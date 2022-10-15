@@ -14,7 +14,9 @@
 }
 
 /* ########################################## */
-/* ########################################## */
+.justify {
+    text-align: justify;
+}
 .nav-item {
     text-align: end;
     font-size: 1.2em;
@@ -160,11 +162,15 @@ div.texto-como-chegar p {
     text-align: left;
     white-space: nowrap;
 }
-
+.bloco {
+    font-size: 1.2rem;
+    font-family: 'Merriweather Sans', 'Sans Serif';
+    color: var(--cor-red6);
+}
 
 @media screen and (max-width: 680px) {
     :root {
-        font-size: 10px;
+        font-size: 12px;
     }
     p.card-descricao {
         font-size: 1.4rem;
